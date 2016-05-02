@@ -1,4 +1,6 @@
 #Team 1710's Scouting Operation for 2016
+This is a detailed description of our process for match scouting, how our app works, and how our data
+processing and displaying functions.
 
 ##The App
 Our scouting app is essentially a big form filled out by scouts based upon what they see in the matches.
