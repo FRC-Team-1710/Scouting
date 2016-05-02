@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Portcullis"
+                android:id="@+id/portcullis_score"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/portcullis_spinner"
+                android:layout_below="@+id/portcullis_score"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cheval"
+                android:id="@+id/cheval_score"
+                android:layout_below="@+id/portcullis_spinner"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cheval_spinner"
+                android:layout_below="@+id/cheval_score"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ramparts"
+                android:id="@+id/rampart_label"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/cheval_spinner"
+                android:textSize="28dp"
+                android:layout_alignRight="@+id/portcullis_score"
+                android:layout_alignEnd="@+id/portcullis_score" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ramparts_spinner"
+                android:layout_below="@+id/rampart_label"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Moat"
+                android:id="@+id/moat_label"
+                android:layout_below="@+id/ramparts_spinner"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/moat_spinner"
+                android:layout_below="@+id/moat_label"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Draw Bridge"
+                android:id="@+id/draw_bridge_label"
+                android:layout_below="@+id/moat_spinner"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/draw_bridge_spinner"
+                android:layout_below="@+id/draw_bridge_label"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sally Port"
+                android:id="@+id/sally_port_label"
+                android:layout_below="@+id/draw_bridge_spinner"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sally_port_spinner"
+                android:layout_below="@+id/sally_port_label"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rockwall"
+                android:id="@+id/rockwall_label"
+                android:layout_below="@+id/sally_port_spinner"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rockwal_spinner"
+                android:layout_below="@+id/rockwall_label"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rough Terrain"
+                android:id="@+id/rough_terrain_label"
+                android:textSize="28dp"
+                android:layout_below="@+id/rockwal_spinner"
+                android:layout_centerHorizontal="true" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rough_terrain_spinner"
+                android:layout_below="@+id/rough_terrain_label"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Low Bar"
+                android:id="@+id/low_bar_label"
+                android:layout_below="@+id/rough_terrain_spinner"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/low_bar_spinner"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/low_bar_label"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

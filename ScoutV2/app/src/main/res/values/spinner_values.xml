@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="y_or_n">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+
+    <string-array name="defenses">
+        <item>Lowbar</item>
+        <item>Portcullis</item>
+        <item>Cheval de Frise</item>
+        <item>Ramparts</item>
+        <item>Moat</item>
+        <item>Draw Bridge</item>
+        <item>Sally Port</item>
+        <item>Rock Wall</item>
+        <item>Rough Terrain</item>
+    </string-array>
+
+    <string-array name="crosses">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="shots">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="zones">
+        <item>Spy Zone</item>
+        <item>Midline</item>
+    </string-array>
+
+    <string-array name="cross_or_reach">
+        <item>Cross</item>
+        <item>Reach</item>
+    </string-array>
+</resources>
